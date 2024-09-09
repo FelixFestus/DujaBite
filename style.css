@@ -1,0 +1,450 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{font-size: 62.5%;}
+header{
+    background-color: wheat;
+   
+}
+.flexnav{
+    display: flex;
+    justify-content: center;
+    padding: 3rem;
+    margin: 0 auto;
+    max-width: 100vw;
+   
+}
+.nav-logo{
+    font-size: 2rem;
+    width: 50%;
+}
+.nav-logo h2{
+    display: flex;
+    padding-top: 2rem;
+    font-size: 4rem;
+    color: orangered;
+    font-weight: 900;
+    margin-left: 5rem;
+}
+.nav-links{
+    display: flex;
+    justify-content:space-evenly ;
+    padding-top: 1rem;
+    width: 100%;
+    height: 10vh;
+}
+.burger {
+    font-size: 2rem;
+    cursor: pointer;
+    display: none;
+  }
+nav ul li{
+    list-style-type: none;
+    margin-top: 2rem;
+
+}
+nav ul li a{
+    color: black;
+    font-size: 2.5rem;
+    font-weight: 900;
+    text-decoration: none;
+    padding: 1rem;
+    
+}
+nav ul li a:hover{
+    background-color: orange;
+}
+nav ul h2{
+    font-size: 4rem;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: rgb(255, 79, 15);
+
+}
+nav ul button{
+    padding: 0.5rem;
+    margin-bottom: 4rem;
+    font-size: 2rem;
+    font-weight:600;
+    background-color:  rgb(255, 79, 15);
+}
+nav ul button:hover{
+    background-color: orange;
+}
+
+.hero{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    min-height: 90vh;
+    background-image: url('Assets/img/hero.jpg.jpg');
+    background-position: center;
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.hero h2{
+    color: bisque;
+    font-size: 6.5rem;
+    font-weight: 900;
+    text-shadow: 5px 5px 3px rgb(203, 12, 25);
+}
+.hero p{font-size: 2rem;
+    color: bisque;
+}
+.hero button{
+    background-color: rgb(255, 79, 15);
+    padding: 2rem;
+    font-size: 2rem;
+    border: none;
+    font-weight: 900;
+    color: bisque;
+}
+.one{
+    max-width: 100%;
+    min-height: 60vh;
+    padding-top: 10rem;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: wheat;
+    flex-wrap: wrap;
+}
+.service{
+    width: 30%;
+    height: 40%;
+    padding: 5rem;
+    border-radius: 5%;
+    
+    background-color: white;
+}
+.icon {color: orange;
+    font-size: 10rem;
+}
+.service h3{
+    color: navy;
+    font-size: 5rem;
+}
+.service p{
+    font-size: 3rem;
+}
+.service:hover{
+    background-color: rgb(77, 131, 11);
+    color: white;
+}
+.menu{
+    background-color: wheat;
+    width: 100%;
+    height: vh;
+}
+.menu h3{
+    padding-top: 10rem;
+    color: navy;
+    font-style: oblique;
+    font-size: 4rem;
+    text-align: center;
+}
+.menu p{
+    text-align: center;
+    font-size: 3rem;
+    color: navy;
+    width: 100%;
+}
+.mcon{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    
+}
+.menucn{
+    width: 30%;
+   
+   padding: 5rem;
+    
+}
+.menucn h5{
+    font-size: 3rem;
+}
+.menucn p{
+    font-size: 3rem;
+    text-align: left;
+}
+.menu button{
+    text-align: center;
+    padding: 3rem;
+    background-color: orange;
+    font-size: 2rem; 
+    border: none;
+    border-radius: 5rem;
+    font-weight: 600;
+    color: navy;
+}
+.but{
+    display: flex;
+    justify-content: center;
+}
+.about{
+    width: 100%;
+    background-color: wheat;
+}
+.about h3{
+    text-align: center;
+    font-size: 5rem;
+    color: navy;
+    padding-top: 10rem;
+    
+}
+.about p{
+    width: 100%;
+    font-size: 3rem;
+}
+.aboutimg{
+    width: 100%;
+    padding: 2rem;
+}
+.abtext button{
+    text-align: center;
+    padding: 3rem;
+    background-color: orange;
+    font-size: 2rem; 
+    border: none;
+    border-radius: 5rem;
+    font-weight: 600;
+    color: navy;
+}
+
+.abcon{
+    display: grid;
+    grid-template-columns: 70% 70%;
+    width: 70%;
+    justify-content: space-between;
+    padding-bottom: 20rem;
+}
+.abcont{
+    display: grid;
+    grid-template-columns: 30% 70%;
+    padding: 10rem;
+    justify-content: center;
+    align-items: center;
+    
+}
+.abtext{
+    padding-bottom: 70rem;
+}
+.book{
+    width: 100%;
+    
+}
+.book h2{
+    font-size: 4rem;
+    color: navy;
+}
+.name{
+    width: 70%;
+    padding: 2rem;
+    font-size: 2rem;
+    font-weight: 600;
+    margin: 1rem;
+}
+.book button{
+    text-align: center;
+    padding: 3rem;
+    background-color: orange;
+    font-size: 2rem; 
+    border: none;
+    border-radius: 5rem;
+    font-weight: 600;
+    color: navy;
+}
+.fimg{width: 50%;
+   
+}
+.bcon{
+    display: flex;
+    justify-content: space-around;
+    padding: 10rem;
+    flex-wrap: wrap;
+
+}
+.fcon{
+    width: 50%;
+}
+.testimony{
+    width: 100%;
+    background-color: wheat;
+}
+.testimony h2{
+    text-align: center;
+    font-size: 5rem;
+    padding-top: 10rem;
+}
+.test{
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 4rem;
+    padding: 10rem;
+    flex-wrap: wrap;
+    
+}
+.paul{
+    width: 25%;
+    padding: 5rem;
+    border-radius: 5%;
+    border: 3px solid rgb(203, 12, 25);
+}
+.paul:hover{
+    background-color: orange;
+}
+
+.footer{
+    width: 100%;
+    background-color: black;
+}
+.footcon{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 7rem;
+    padding: 10rem;
+    flex-wrap: wrap;
+}
+.h5 h5{font-size: 5rem;
+    margin-left: -2rem;
+}
+.brand{
+    width: 20%;
+    color: aliceblue;
+}
+.brand ul{
+    list-style-type: none;
+}
+.brand li a{
+    font-size: 3rem;
+    color: aliceblue;
+    text-decoration: none;
+  
+}
+.brand li a:hover{
+    font-size: 3.5rem;
+    color: orangered;
+    text-decoration: none;
+  
+}
+.contact{
+    width: 30%;
+    color: aliceblue;
+}
+.contact h5{
+    font-size: 5rem;
+}
+.contact p{
+    font-size: 3rem;
+    color: aliceblue;
+  
+}
+
+.time{
+    width: 30%;
+    color: aliceblue;
+}
+.time h5{
+    font-size: 5rem;
+}
+.time p{
+    font-size: 3rem;
+    color: aliceblue;
+}
+.copy{
+    display: flex;
+    font-size: 4rem;
+    color: aliceblue;
+    justify-content: center;
+    padding: 2rem;
+}
+
+/* Responsive screen */
+@media(max-width: 1020px){
+    .flexnav{
+        display: flex;
+        justify-content: space-between;
+        padding: 2rem 2rem 8rem;
+    }
+    .nav-links{
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 80px;
+        right: 0;
+        width: 100%;
+        height: 30vh;
+        text-align: center;
+        background-color: antiquewhite;
+    }
+    .burger{
+        display: block;
+        font-size: 6rem;
+        margin-right: 10rem;
+    }
+    .nav-links.active{
+        display: flex;
+    }
+    .nav-links li{
+        margin: 1rem 0;
+    }
+    .hero{
+        padding: 1rem;
+    }
+    .hero h2{
+        font-size: 6rem;
+    }
+    .service{
+        width: 100%;
+        border: 3px solid rgb(203, 12, 25);
+    }
+    .menucn{
+        width: 100%;
+    }
+    .abcon{
+        display: grid;
+        grid-template-columns: 100%;
+        width: 100%;
+        justify-content: space-between;
+        padding-bottom: 10rem;
+    }
+    .abcont{
+        display: grid;
+        grid-template-columns: 100% ;
+        padding: 10rem;
+        justify-content: center;
+        align-items: center;
+    }
+    .abtext{
+        padding-bottom: 10rem;
+    }
+    .aboutimg{
+        width: 100%;
+    }
+    .fcon{
+        width: 100%;
+        padding-bottom: 3rem;
+    }
+    .fimg{
+        width: 100%;
+    }
+    .tform{
+        width: 140%;
+    }
+    .paul{
+        width: 100%;
+        border: 5px solid rgb(203, 12, 25);
+    }
+    .brand{
+        width: 50%;
+    }
+    .contact{
+        width: 50%;
+    }
+    .time{
+        width: 100%;
+    }
+}

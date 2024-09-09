@@ -1,0 +1,317 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{font-size: 45%;}
+nav ul{
+    display: flex;
+    justify-content:space-evenly ;
+    padding-top: 1rem;
+    width: 100%;
+    height: 10vh;
+    background-color: wheat;
+    position: fixed;
+}
+nav ul li{
+    list-style-type: none;
+    margin-top: 2rem;
+
+}
+nav ul li a{
+    color: black;
+    font-size: 2rem;
+    font-weight: 600;
+    text-decoration: none;
+    padding: 1rem;
+    
+}
+nav ul li a:hover{
+    background-color: orange;
+}
+nav ul h2{
+    font-size: 4rem;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: rgb(255, 79, 15);
+
+}
+nav ul button{
+    padding: 0.5rem;
+    margin-bottom: 4rem;
+    font-size: 2rem;
+    font-weight:600;
+    background-color:  rgb(255, 79, 15);
+}
+nav ul button:hover{
+    background-color: orange;
+}
+
+.hero{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    min-height: 90vh;
+    background-image: url('hero.jpg.jpg');
+    background-position: center;
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.hero h2{
+    color: bisque;
+    font-size: 6.5rem;
+    font-weight: 900;
+    text-shadow: 5px 5px 3px rgb(203, 12, 25);
+}
+.hero p{font-size: 2rem;
+    color: bisque;
+}
+.hero button{
+    background-color: rgb(255, 79, 15);
+    padding: 2rem;
+    font-size: 2rem;
+    border: none;
+    font-weight: 900;
+    color: bisque;
+}
+.one{
+    max-width: 100%;
+    min-height: 60vh;
+    padding-top: 10rem;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: wheat;
+    flex-wrap: wrap;
+}
+.service{
+    max-width: 30%;
+    height: 40%;
+    padding: 5rem;
+    border-radius: 5%;
+    
+    background-color: white;
+}
+.icon {color: orange;
+    font-size: 10rem;
+}
+.service h3{
+    color: navy;
+    font-size: 5rem;
+}
+.service p{
+    font-size: 3rem;
+}
+.service:hover{
+    background-color: rgb(77, 131, 11);
+    color: white;
+}
+.menu{
+    background-color: wheat;
+    width: 100%;
+    height: 120vh;
+}
+.menu h3{
+    padding-top: 10rem;
+    color: navy;
+    font-style: oblique;
+    font-size: 4rem;
+    text-align: center;
+}
+.menu p{
+    text-align: center;
+    font-size: 3rem;
+    color: navy;
+}
+.mcon{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    
+}
+.menucn{
+    width: 30%;
+    height: 45%;
+   padding: 5rem;
+    
+}
+.menucn h5{
+    font-size: 3rem;
+}
+.menucn p{
+    font-size: 3rem;
+    text-align: left;
+}
+.menu button{
+    text-align: center;
+    padding: 3rem;
+    background-color: orange;
+    font-size: 2rem; 
+    border: none;
+    border-radius: 5rem;
+    font-weight: 600;
+    color: navy;
+}
+.but{
+    display: flex;
+    justify-content: center;
+}
+.about{
+   
+    width: 100%;
+    height: 100vh;
+    background-color: wheat;
+}
+.about h3{
+    text-align: center;
+    font-size: 5rem;
+    color: rgb(128, 0, 30);
+    padding-top: 10rem;
+    
+}
+.about p{
+    width: 100%;
+    font-size: 3rem;
+}
+.aboutimg{
+    width: 100%;
+    padding: 2rem;
+}
+.abtext button{
+    text-align: center;
+    padding: 3rem;
+    background-color: orange;
+    font-size: 2rem; 
+    border: none;
+    border-radius: 5rem;
+    font-weight: 600;
+    color: navy;
+}
+
+.abcon{
+    display: grid;
+    grid-template-columns: 70% 70%;
+    width: 70%;
+    justify-content: space-between;
+}
+.abcont{
+    display: grid;
+    grid-template-columns: 30% 70%;
+    padding: 10rem;
+    justify-content: center;
+    align-items: center;
+}
+.book{
+    width: 100%;
+    height: 50vh;
+    
+}
+.book h2{
+    font-size: 4rem;
+    color: navy;
+}
+.name{
+    width: 70%;
+    padding: 2rem;
+    font-size: 2rem;
+    font-weight: 600;
+    margin: 1rem;
+}
+.book button{
+    text-align: center;
+    padding: 3rem;
+    background-color: orange;
+    font-size: 2rem; 
+    border: none;
+    border-radius: 5rem;
+    font-weight: 600;
+    color: navy;
+}
+.fimg{width: 50%;
+   
+}
+.bcon{
+    display: flex;
+    justify-content: space-around;
+    padding: 10rem;
+
+}
+.fcon{
+    width: 50%;
+}
+.testimony{
+    width: 100%;
+    height: 70vh;
+    background-color: wheat;
+}
+.testimony h2{
+    text-align: center;
+    font-size: 5rem;
+    padding-top: 10rem;
+}
+.test{
+    display: flex;
+    
+    flex-wrap: wrap;
+    font-size: 3rem;
+    padding: 10rem;
+    
+}
+.paul{
+    width: 25%;
+    padding: 3rem;
+    border-radius: 5%;
+}
+.paul:hover{
+    background-color: orange;
+}
+
+.footer{
+    width: 100%;
+    height: 50vh;
+    background-color: rgb(77, 131, 11);
+}
+.footcon{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 7rem;
+    padding: 10rem;
+}
+.h5 h5{font-size: 5rem;
+    margin-left: -2rem;
+}
+.brand{
+    width: 20%;
+}
+.brand li a{
+    font-size: 3rem;
+    color: orange;
+    text-decoration: none;
+}
+.contact{
+    width: 30%;
+}
+.contact h5{
+    font-size: 5rem;
+}
+.contact p{
+    font-size: 3rem;
+    color: orange;
+  
+}
+.time{
+    width: 30%;
+}
+.time h5{
+    font-size: 5rem;
+}
+.time p{
+    font-size: 3rem;
+    color: orange;
+}
+.copy{
+    display: flex;
+    font-size: 4rem;
+    color: orange;
+    justify-content: center;
+}
