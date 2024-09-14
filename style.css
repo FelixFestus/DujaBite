@@ -363,11 +363,14 @@ nav ul button:hover{
 }
 
 /* Responsive screen */
-@media(max-width: 1020px){
+@media(max-width: 770px){
+    html{
+        font-size: 50%;
+    }
     .flexnav{
         display: flex;
         justify-content: space-between;
-        padding: 2rem 2rem 8rem;
+        padding: 2rem 2rem 5rem;
     }
     .nav-links{
         display: none;
@@ -383,7 +386,7 @@ nav ul button:hover{
     .burger{
         display: block;
         font-size: 6rem;
-        margin-right: 10rem;
+        margin-right: 5rem;
     }
     .nav-links.active{
         display: flex;
@@ -395,11 +398,14 @@ nav ul button:hover{
         padding: 1rem;
     }
     .hero h2{
-        font-size: 6rem;
+        font-size: 4.5rem;
+    }
+    .one{
+        padding: 5rem;
     }
     .service{
         width: 100%;
-        border: 3px solid rgb(203, 12, 25);
+        margin: 1rem;
     }
     .menucn{
         width: 100%;
